@@ -20,11 +20,14 @@ body{
         flex-wrap: wrap;
     }
 } 
-.img{
-    height: 100%;
-    background: url(images/twitter\ 11.png) center center/cover;
-    flex: 0 1 53vw;
-    position: relative;
+@media( max-width:100%){
+    .img{
+        height: 100%;
+        background: url(images/twitter\ 11.png) center center/cover;
+        flex: 0 1 53vw;
+        position: relative;
+    }
+
 }
 .content{
     flex: 0 0 47vw;
