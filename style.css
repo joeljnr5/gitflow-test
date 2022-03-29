@@ -12,12 +12,14 @@ body{
     min-height: 100vh;
     overflow-x: hidden;
 }
-.containerflex{
-    display: flex;
-    width: 100vw;
-    height: 87vh;
-    flex-wrap: wrap;
-}
+@media(max-width: 100%){
+    .containerflex{
+        display: flex;
+        width: 100vw;
+        height: 87vh;
+        flex-wrap: wrap;
+    }
+} 
 .img{
     height: 100%;
     background: url(images/twitter\ 11.png) center center/cover;
