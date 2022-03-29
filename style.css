@@ -111,11 +111,12 @@ h3{
         height: 80vh;
         margin: 0 auto;
     }
-
+    @media(max-width:100%){
     .img{
         height: 50vh;
         flex: 0 1 100vw;
     }
+}
     .button{
         display: flex;
     }
